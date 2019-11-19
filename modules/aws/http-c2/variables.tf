@@ -2,7 +2,7 @@ variable "subnet_id" {}
 
 variable "vpc_id" {}
 
-variable "count" {
+variable "varcount" {
   default = 1
 }
 

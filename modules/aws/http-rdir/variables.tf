@@ -23,7 +23,7 @@ variable "ansible_vars" {
   description = "Environment variables"
 }
 
-variable "count" {
+variable "varcount" {
   default = 1
 }
 
@@ -43,7 +43,7 @@ variable "install" {
 */
 
 variable "amis" {
-  type = "map"
+  type = map
   default = {
 
     // Taken from https://wiki.debian.org/Cloud/AmazonEC2Image/Stretch
