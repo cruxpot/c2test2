@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\modules",
+    "\\modules\\aws",
+    "\\modules\\aws\\http-c2",
+    "\\modules\\aws\\http-rdir"
+  ],
+  "SelectedNode": "\\modules\\aws\\http-rdir\\main.tf",
+  "PreviewInSolutionExplorer": false
+}
