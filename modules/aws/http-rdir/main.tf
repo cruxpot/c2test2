@@ -63,8 +63,10 @@ resource "aws_instance" "http-rdir" {
 
   provisioner "local-exec" {
     when = "destroy"
+    /*
     command = "rm ./data/ssh_keys/${self.public_ip}*"
-  }
+    */
+   }
 
 }
 
